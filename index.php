@@ -12,7 +12,7 @@ echo " IDE on Heroku: ".$ide;
 echo " c On Heroku: ".$c." ";
 
 
-$url = "http://www.startupwala.in/tm_comparator_api/get_new_trademarks.php?id=".$id."&&ide=".$ide;
+$url = "http://www.startupwala.in/tm_comparator_api/get_new_trademarks.php?id=".$id."&&ide=".$ide."&&c=".$c;
 
 
 $contents = file_get_contents($url);
